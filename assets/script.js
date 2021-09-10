@@ -6,3 +6,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
+$(".morebox").click(function() {
+  $(this).children(".morecontent").toggle("fast");
+});

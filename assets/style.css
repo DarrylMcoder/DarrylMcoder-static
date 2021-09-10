@@ -233,3 +233,6 @@ body, html {
         border:solid black 2px;
         text-align:left;
       }
+.morecontent{
+  display:none;
+}
