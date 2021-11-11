@@ -7,6 +7,8 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 
-$(".morebtn").click(function() {
-  $(this).siblings(".morecontent").slideDown("fast");
+$(function() {
+  $(".morebtn").click(function() {
+    $(this).siblings( ".morecontent" ).slideDown( "fast" );
+  });
 });
