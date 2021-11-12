@@ -8,7 +8,6 @@ function closeNav() {
 }
 
 function decrypt(crypted,key) {
-          alert("crypted:  "+crypted);
         var alpha = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890";
         var decrypted_str = "";
         var found = false;
@@ -27,6 +26,5 @@ function decrypt(crypted,key) {
           }
           found = false;
         }
-        alert("decrypted:   "+decrypted_str);
         return decrypted_str;
       }
