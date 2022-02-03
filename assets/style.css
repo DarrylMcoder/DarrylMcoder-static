@@ -1,4 +1,4 @@
-
+@import 'https://filter2.caretech.io:1525/static/fontawesome/css/all.css';
 html {
   background-color:#070b9b;
 }
@@ -250,3 +250,15 @@ body, html {
         font-size:15px;
         border:solid black 3px;
       }
+
+.account-icon{
+      color:black;
+      background-color:white;
+      text-shadow: none;
+      position:absolute;
+      right:15px;
+      border-radius:50%;
+      border: solid 2px;
+      padding:6px;
+    }
+    
