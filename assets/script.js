@@ -28,3 +28,21 @@ function decrypt(crypted,key) {
         }
         return decrypted_str;
       }
+
+
+
+function loadLinks(url,id) {
+  var linksHTML = '';
+  fetch(url).then(res => {
+    res.text().then(text => {
+      return JSON.parse(text);
+    }).then(links => {
+      for (const [key, value] of Object.entries(links)) {
+      linksHTML += '<a href=\"' + value + '\">' + key + '</a>  ';
+    }
+    var elem = document.getElementById(id);
+      console.log(elem)
+    elem.innerHTML += linksHTML;
+    }).catch(err => console.log(err));
+  }).catch(err => console.log(err));
+}
