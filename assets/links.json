@@ -1,5 +1,6 @@
 {
-  "YouTube Downloader": "yt.app.darrylmcoder.com",
-  "Web Proxy": "imap.compass-bypass.darrylmcoder.com",
-  "Mp3 Music Downloader": "spotdl.darrylmcoder.com"
+  "Home Page": "http://darrylmcoder.com",
+  "YouTube Downloader": "http://yt.app.darrylmcoder.com",
+  "Web Proxy": "http://imap.compass-bypass.darrylmcoder.com",
+  "Music Downloader": "http://spotdl.darrylmcoder.com"
 }
